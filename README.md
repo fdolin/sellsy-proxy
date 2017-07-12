@@ -2,7 +2,7 @@
 
 Basic Sellsy API proxy for full client side apps.
 
-[![Deploy to now](https://deploy.now.sh/static/button.svg)](https://deploy.now.sh/?repo=https://github.com/revolunet/sellsy-proxy&env=SELLSY_CREDS)
+[![Deploy to now](https://deploy.now.sh/static/button.svg)](https://deploy.now.sh/?repo=https://github.com/fdolin/sellsy-proxy&env=SELLSY_CREDS)
 
 ## Usage
 
