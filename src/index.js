@@ -11,7 +11,12 @@ if (!process.env.SELLSY_CREDS) {
   process.exit(1)
 }
 
-const SELLSY_CREDS = JSON.parse(process.env.SELLSY_CREDS)
+const SELLSY_CREDS = {
+consumerKey:"4f79044c9cbdc0dad84ec7426a4a2b19124403c7",
+ consumerSecret:"29523a12ce28702e22184377a819d0c4eb2c53dd",
+  userToken:"9f09e9246ceb3ee1d3db55d07b6fd3f10e00bef8",
+  userSecret:"4a1846f7357fe2245e86c2095bbfabe9c48db22f"
+};
 
 app.get('/', (req, res) => {
   var sellsy = new Sellsy({
