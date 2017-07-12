@@ -22,7 +22,7 @@ app.get('/', (req, res) => {
   var sellsy = new Sellsy({
     creds: SELLSY_CREDS
   })
-  console.log('VALEUR :' + req.query.params);
+
   sellsy.api({
     method: req.query.method,
     params: req.query.params
